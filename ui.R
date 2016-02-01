@@ -1,36 +1,45 @@
-library(shiny)
+require(shiny)
 
 shinyUI(
     
     pageWithSidebar(
         
-        headerPanel("Simple diabetes predict"),
+        headerPanel("Linear diamond pricing model"),
         
         sidebarPanel(
             numericInput(
-                'glucose', # id
-                'Glucose mg/dl', # label
-                88, # default value
-                min = 50,
-                max = 200,
-                step = 2
+                'carat', # id
+                'Carat', # label
+                0.79, # default value
+                min = 0.01,
+                max = 10,
+                step = 0.01
             ),
-            submitButton("Go predict")
-            #h3("Sidebar text"),
-            #h3("two ANother one"),
-            #h3("three ANother one"),
-            #h3("four ANother one")
+            submitButton("Price diamond")
+
         
             
         ),
 
         mainPanel(
-            h3("Your results"),
-            h4("You entered: "),
-            verbatimTextOutput("inputValue"),
-            h4("which resulted in a prediction of: "),
-            verbatimTextOutput("prediction"),
-            plotOutput('newHist')
+            h3("Diamond price"),
+            h4("How many carats does your diamond have? "),
+            #verbatimTextOutput("inputValue"),
+            htmlOutput("inputValue"), 
+            h4("Your diamond is worth: "),
+            #verbatimTextOutput("prediction")
+            htmlOutput("prediction"),
+            
+            h4("How to use:"),
+            helpText("This apps helps friends of diamonds to figure out how much his or her piece of jewellery is worth given they know the carat number. It uses a dataset of about 37k observations to train a linear model that can predict the price."),
+            code("Carat"),
+            helpText("This will determine the price of a diamond."),
+            code("Price"),
+            helpText("Enter the carat number to get an estimate of the price of a diamond."),
+            
+            h4("Background"),
+            helpText("To understand how the model was built check out the readme in the ",  a("github repo.", href="http://github.com/manni-truong", target="_blank"))
+            
         )
         
     )
