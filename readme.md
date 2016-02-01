@@ -17,5 +17,5 @@ The app can be accessed at [shinyapps](https://mhtruong.shinyapps.io/assignment/
 
 ## Pitch presentation
 
-The accompanying pitch presentation is found at 
+The accompanying pitch presentation is found at [gh-pages](http://manni-truong.github.io/ddp_assign_diamonds/pitch-presentation-rpubs.html)
 
