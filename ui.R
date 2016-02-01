@@ -38,7 +38,7 @@ shinyUI(
             helpText("Enter the carat number to get an estimate of the price of a diamond."),
             
             h4("Background"),
-            helpText("To understand how the model was built check out the readme in the ",  a("github repo.", href="http://github.com/manni-truong", target="_blank"))
+            helpText("To understand how the model was built check out the readme in the ",  a("github repo.", href="https://github.com/manni-truong/ddp_assign_diamonds", target="_blank"))
             
         )
         
