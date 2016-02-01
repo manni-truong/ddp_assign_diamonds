@@ -1,20 +1,21 @@
-\name{DDP assignment - Diamond Price Predictor}
-\alias{DDP assignment - Diamond Price Predictor}
-
-\title{Diamond Price Predictor}
+---
+title: "Diamond Price Predictor"
+author: "Manni Truong"
+date: "31 January 2016"
+output: html_document
+---
 
 # Diamond Price Predictor
 
 ## Introduction
 
-This shiny app was built as part of Coursera's Developing Data Products course. The app uses the `diamonds` dataset which is part of `ggplot2`. We use machine learning to build a model that can be used to predict the price of a diamond given certain characteristics, such as carat. 
+This shiny app was built as part of Coursera's Developing Data Products course. The app uses the `diamonds` dataset which is part of `ggplot2`. We use linear modelling to build a model that can be used to predict the price of a diamond given certain characteristics, such as carat. 
 
 ## App
 
-The shiny app can be found:
+The app can be accessed at [shinyapps](https://mhtruong.shinyapps.io/assignment/)
 
-## Background
+## Pitch presentation
 
+The accompanying pitch presentation is found at 
 
-
-## Usage
