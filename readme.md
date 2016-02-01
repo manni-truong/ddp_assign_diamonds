@@ -13,9 +13,9 @@ This shiny app was built as part of Coursera's Developing Data Products course. 
 
 ## App
 
-The app can be accessed at [shinyapps](https://mhtruong.shinyapps.io/assignment/)
+The app can be accessed at [shinyapps](https://mhtruong.shinyapps.io/assignment/).
 
 ## Pitch presentation
 
-The accompanying pitch presentation is found at [gh-pages](http://manni-truong.github.io/ddp_assign_diamonds/pitch-presentation-rpubs.html)
+The accompanying pitch presentation is found at [gh-pages](http://manni-truong.github.io/ddp_assign_diamonds/pitch-presentation-rpubs.html).
 
